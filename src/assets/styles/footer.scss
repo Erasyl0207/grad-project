@@ -1,0 +1,28 @@
+.foot {
+    padding: 50px 0 100px 0;
+    background-color: #CC9D2F;
+    &-logo {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    &-nav {
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 500px;
+            margin: 0 auto;
+            padding: 50px 0 70px 0;
+            li a {
+                transition: 0.6s;
+                &:hover {
+                    color: #5B0017;
+                    transition: 0.6s;
+                }
+            }
+        }
+    }
+    &-btm {
+        padding-top: 50px;
+    }
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Lato;
+}
+div {
+    box-sizing: border-box;
+}
+a, button {
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+}
+.button {
+    border: 3px solid #CC9D2F;
+    font-weight: 400;
+    padding: 16px 35px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #CC9D2F;
+    transition: 0.6s;
+    background-color: #5B0017;
+    &:hover {
+        background: #CC9D2F;
+        color: #5B0017;
+        transition: 0.6s;
+    }
+}
+.fz21-400 {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.fz100-400 {
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 100px;
+    color: #FFFFFF;
+    backdrop-filter: blur(1px);
+    background: rgba(91, 0, 23, 0.7);
+}
+.fz23-400 {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.fz70-400 {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 88px;
+    color: #FFFFFF;
+}
